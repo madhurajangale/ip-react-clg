@@ -1,0 +1,131 @@
+/* General layout and typography */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #004080;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Image */
+.img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* Section container */
+.section {
+  background-color: #e0f0ff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* List styling */
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ccc;
+}
+
+.notices-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.notices-list li {
+  margin-bottom: 10px; /* Add space between each notice */
+  font-size: 16px;
+  font-weight: bold;
+  color: #911616;
+}
+
+.achievements {
+  background-color: #044250;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  text-align: center; /* Center align the title */
+}
+
+.achievements h2{
+  color: white;
+}
+
+.achievements-container {
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+.achievement-image {
+  width: 350px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Spacing between images */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}

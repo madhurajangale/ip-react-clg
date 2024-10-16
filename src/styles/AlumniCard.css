@@ -1,0 +1,30 @@
+/* AlumniCard.css */
+
+.alumni-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+    width: 300px;
+    height: auto;
+  }
+  
+  .alumni-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .alumni-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes the image round */
+  }
+  
+  .alumni-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line */
+  }
+  
